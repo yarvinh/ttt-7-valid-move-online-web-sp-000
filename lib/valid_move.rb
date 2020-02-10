@@ -1,17 +1,13 @@
 # code your #valid_move? method here
 
 def valid_move?(board,index)
-  if board[index] = " "
+  if board[index] == " "
     true
+  elsif board[index] == "X"
   end
 end
 
-# describe './lib/valid_move.rb' do
-#   it 'returns true for a valid position on an empty board' do
-#     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#     index = 0
-#     expect(valid_move?(board, index)).to be_truthy
-#   end
+
 
 
 
